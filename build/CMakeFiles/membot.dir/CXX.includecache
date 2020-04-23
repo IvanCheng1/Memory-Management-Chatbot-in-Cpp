@@ -6,27 +6,29 @@
 
 #IncludeRegexTransform: 
 
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatbot.cpp
+iostream
+-
+random
+-
+algorithm
+-
+ctime
+-
+chatlogic.h
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatlogic.h
+graphnode.h
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/graphnode.h
+graphedge.h
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/graphedge.h
+chatbot.h
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatbot.h
+
 /Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatbot.h
 wx/bitmap.h
 -
 string
 -
-
-/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatgui.cpp
-wx/filename.h
--
-wx/colour.h
--
-wx/image.h
--
-string
--
-chatbot.h
-/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatbot.h
-chatlogic.h
-/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatlogic.h
-chatgui.h
-/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatgui.h
 
 /Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatgui.h
 wx/wx.h
@@ -39,6 +41,20 @@ string
 -
 chatgui.h
 /Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatgui.h
+
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/graphedge.h
+vector
+-
+string
+-
+
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/graphnode.h
+vector
+-
+string
+-
+chatbot.h
+/Users/IvanCheng/Documents/GitHub/Memory-Management-Chatbot-in-Cpp/src/chatbot.h
 
 /usr/local/include/wx-3.1/wx/accel.h
 wx/defs.h
