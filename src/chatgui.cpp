@@ -5,6 +5,7 @@
 #include "chatbot.h"
 #include "chatlogic.h"
 #include "chatgui.h"
+#define __GXX_ABI_VERSION 1009
 
 // size of chatbot window
 const int width = 414;

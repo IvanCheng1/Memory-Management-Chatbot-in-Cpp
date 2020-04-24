@@ -49,7 +49,7 @@ ChatBot::~ChatBot()
 ChatBot::ChatBot(const ChatBot &source) {
     std::cout << "Using ChatBot Copy Constructor" << std::endl;
 
-    _image = source._image;
+    _image = new wxBitmap(*source._image);
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
@@ -63,7 +63,7 @@ ChatBot &ChatBot::operator=(const ChatBot &source) {
         return *this;
     }
 
-    _image = source._image;
+    _image = new wxBitmap(*source._image);
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
     _chatLogic = source._chatLogic;
@@ -89,7 +89,11 @@ ChatBot::ChatBot(ChatBot &&source) { // only accept rvalues
 // Move operator
 ChatBot &ChatBot::operator=(ChatBot &&source) { // only accept rvalues
     std::cout << "Using ChatBot Move Operator" << std::endl;
-
+	
+  	if (this == &source) { // if pointers are the same
+        return *this;
+    }
+  
     _image = source._image;
     _currentNode = source._currentNode;
     _rootNode = source._rootNode;
